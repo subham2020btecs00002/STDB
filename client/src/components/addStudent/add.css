@@ -1,0 +1,87 @@
+.addstudent {
+  width: 25%;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+.addstudentForm {
+  margin-top: 20px;
+}
+
+.addstudentForm .inputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addstudentForm .inputGroup label {
+  margin-bottom: 5px;
+}
+
+.addstudentForm .inputGroup input {
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+/* Make the input box red when there's an error */
+.addstudentForm .inputGroup.error input {
+  border-color: red;
+}
+
+.addstudentForm .inputGroup.error .errorMessage {
+  color: red; /* Adjusted to make only the error message red */
+}
+
+.addstudentForm .inputGroup button {
+  border: 0;
+  outline: none;
+  background-color: purple;
+  color: white;
+  font-weight: 600;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.addstudent h3 {
+  margin-top: 10px;
+}
+
+.button {
+  border: 0;
+  outline: none;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.dropdown {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+
+.addstudentForm .inputGroup .errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  background-color: #f8d7da; /* Light red background */
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #f5c6cb; /* Red border */
+}
